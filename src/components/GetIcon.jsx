@@ -1,5 +1,5 @@
 import * as Bs from "react-icons/bs";
-import * as Fi from "react-icons/fi";
+import * as Ai from "react-icons/ai";
 import * as Hi from "react-icons/hi";
 import * as Tb from "react-icons/tb";
 
@@ -7,7 +7,7 @@ const GetIcon = ({ icon, className }) => {
     const getIcon = iconName => {
         const iconsMap = new Map();
         iconsMap.set("Bs", Bs);
-        iconsMap.set("Fi", Fi);
+        iconsMap.set("Ai", Ai);
         iconsMap.set("Hi", Hi);
         iconsMap.set("Tb", Tb);
 
