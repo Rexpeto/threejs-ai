@@ -1,26 +1,31 @@
 export const EditorTabs = [
     {
-        name: "colorpicker",
-        icon: "HiOutlineColorSwatch"
+        name: "Picker color",
+        icon: "HiOutlineColorSwatch",
+        action: "colorpicker"
     },
     {
-        name: "filepicker",
-        icon: "FiDownloadCloud"
+        name: "Subir imagen",
+        icon: "AiOutlineCloudUpload",
+        action: "filePicker"
     },
     {
-        name: "aipicker",
-        icon: "BsRobot"
+        name: "IA",
+        icon: "BsRobot",
+        action: "AI"
     }
 ];
 
 export const FilterTabs = [
     {
-        name: "Logo shirt",
-        icon: "TbShirt"
+        name: "Logo camiseta",
+        icon: "TbShirt",
+        action: "logoShirt"
     },
     {
-        name: "Stylish shirt",
-        icon: "TbShirtSport"
+        name: "Estilo de camiseta",
+        icon: "TbShirtSport",
+        action: "stylishShirt"
     }
 ];
 
