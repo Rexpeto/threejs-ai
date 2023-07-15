@@ -51,7 +51,7 @@ const Home = () => {
                                 type="filled"
                                 title="Personalizar"
                                 handleClick={() => (state.intro = false)}
-                                customStyle="w-fit px-4 py-2.5 font-bold text-sm dark:text-white bg-gray-300 dark:bg-gray-800"
+                                customStyle="w-fit px-4 py-2.5 font-bold text-sm dark:text-white bg-gray-500/25 dark:bg-gray-800"
                             />
                         </motion.div>
                     </motion.div>
